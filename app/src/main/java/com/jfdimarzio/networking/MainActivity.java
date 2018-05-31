@@ -211,9 +211,10 @@ public class MainActivity extends AppCompatActivity {
                         REQUEST_INTERNET);
 
         } else{
-           // new DownloadImageTask().execute("http://www.jfdimarzio.com/butterfly.png");
+           new DownloadImageTask().execute("https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/14067601_10210407722452208_420149749439411805_n.jpg?_nc_cat=0&oh=481bd7e0b8c4f9ddc7a01e2be286d94e&oe=5BBA0C95");
            // new DownloadTextTask().execute("http://jfdimarzio.com/test.htm");
             new AccessWebServiceTask().execute("apple");
+
         }
 
     }
